@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .balance {
+    margin: 20px 0;
+  }
+  
+  #balance {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .form {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  input {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .transactions {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-left: 5px solid #28a745;
+    border-radius: 5px;
+  }
+  
+  li.expense {
+    border-left: 5px solid #dc3545;
+  }
+  
+  .totals {
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  #totalIncome {
+    color: #28a745;
+    font-weight: bold;
+  }
+  #totalExpenses {
+    color: #dc3545;
+    font-weight: bold;
+  }

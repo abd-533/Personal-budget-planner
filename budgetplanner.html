@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Budget Planner</title>
+  <link rel="stylesheet" href="budgetplanner.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Personal Budget Planner</h1>
+
+    <div class="balance">
+      <h2>Total Balance: <span id="balance">₹0</span></h2>
+    </div>
+
+    <div class="form">
+      <h3>Add Transaction</h3>
+      <input type="text" id="description" placeholder="Description (e.g., Salary, Rent)">
+      <input type="number" id="amount" placeholder="Amount (e.g., 500)">
+      <button id="addTransaction">Add Transaction</button>
+    </div>
+
+    <div class="transactions">
+      <h3>Transaction History</h3>
+      <ul id="transactionList">
+        <!-- Transactions will appear here -->
+      </ul>
+    </div>
+
+    <div class="totals">
+      <h3>Summary</h3>
+      <p>Total Income: <span id="totalIncome">₹0</span></p>
+      <p>Total Expenses: <span id="totalExpenses">₹0</span></p>
+    </div>
+  </div>
+
+  <script src="budgetplanner.js"></script>
+</body>
+</html>
